@@ -1,4 +1,8 @@
 function fish_title
-    echo -n $argv[1]
+    if [ $_ = 'fish' ]
+        echo -n 'fisn>'
+    else
+        echo -n $argv[1]
+    end
 end
 
