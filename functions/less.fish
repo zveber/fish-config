@@ -1,3 +1,3 @@
 function less
-	command less --raw-control-chars $argv
+	command less --raw-control-chars --LINE-NUMBERS $argv
 end
