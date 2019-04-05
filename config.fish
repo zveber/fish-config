@@ -8,3 +8,5 @@ end
 set -x fish_color_param 001010
 set -x fish_color_command_error red --bold
 
+set -x PAGER most
+
