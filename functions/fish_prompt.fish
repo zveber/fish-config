@@ -12,9 +12,9 @@ function fish_prompt
 
     set_color normal
     if test $USER = root
-        echo " # "
+        echo -n " # "
     else
-        echo " > "
+        echo -n " > "
     end
 end
 
