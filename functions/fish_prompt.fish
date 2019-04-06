@@ -11,6 +11,10 @@ function fish_prompt
     echo -n (prompt_pwd)
 
     set_color normal
-    echo " > "
+    if test $USER = root
+        echo " # "
+    else
+        echo " > "
+    end
 end
 
