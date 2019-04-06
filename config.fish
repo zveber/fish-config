@@ -9,5 +9,5 @@ set -x fish_color_command_error red --bold
 
 # set envuronment variables
 set -x PAGER most
-set -x fish_user_paths $HOME/.local/bin $fish_user_paths
+set -px fish_user_paths $HOME/.local/bin
 
