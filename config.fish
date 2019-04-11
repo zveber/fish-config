@@ -6,6 +6,7 @@ end
 # set colors
 set -x fish_color_param black
 set -x fish_color_command_error red --bold
+set -x fish_color_command blue --bold
 
 # set envuronment variables
 set -x PAGER most
