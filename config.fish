@@ -7,7 +7,7 @@ end
 set fish_color_command blue --bold
 set fish_color_command_error red --bold
 set fish_color_param black
-set fish_pager_color_completion normal --dim
+set fish_color_completion normal --dim
 
 # set envuronment variables
 set -x PAGER vimpager
