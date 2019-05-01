@@ -10,7 +10,7 @@ set fish_color_param normal
 set fish_color_completion normal --dim
 
 # set envuronment variables
-set -x PAGER vimpager
+set -x PAGER most
 set -px fish_user_paths $HOME/.local/bin
 
 # restore tmux session or start a new one
