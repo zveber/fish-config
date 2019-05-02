@@ -4,7 +4,8 @@ function fish_prompt
         set_color red
         echo -n "($updated) "
     end
-    set_color $fish_color_user
+    
+    set_color green
     echo -n "$USER "
 
     set_color blue
