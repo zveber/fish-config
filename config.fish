@@ -4,10 +4,10 @@ function __fish_command_not_found_handler --on-event fish_command_not_found
 end
 
 # set colors
+set fish_color_autosuggestion normal --dim
 set fish_color_command blue --bold
 set fish_color_command_error red --bold
 set fish_color_param normal
-set fish_color_autosuggestion normal --dim
 
 # set envuronment variables
 set -x PAGER most
