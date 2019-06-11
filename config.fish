@@ -8,6 +8,7 @@ set fish_color_autosuggestion normal --dim
 set fish_color_command blue --bold
 set fish_color_command_error red --bold
 set fish_color_param normal
+set fish_color_redirection magenta bold
 
 # set envuronment variables
 set -x PAGER most
