@@ -11,9 +11,9 @@ set fish_color_error red --bold
 set fish_color_operator green --bold
 set fish_color_param normal
 set fish_color_redirection magenta bold
-set fish_pager_color_completion magenta --bold
+set fish_pager_color_completion blue --bold
 set fish_pager_color_description green --bold
-set fish_pager_color_prefix blue --bold
+set fish_pager_color_prefix black
 
 # set envuronment variables
 set -x PAGER most
