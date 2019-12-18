@@ -5,6 +5,11 @@ function fish_prompt
         echo -n "($updated) "
     end
     
+    if set -q fish_private_mode
+        set_color magenta
+        printf "P! "
+    end
+
     set_color green
     echo -n "$USER "
 
