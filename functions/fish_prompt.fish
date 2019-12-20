@@ -6,8 +6,10 @@ function fish_prompt
     end
     
     if set -q fish_private_mode
-        set_color red --bold
-        printf "P! "
+        set_color black --background red
+        printf "P!"
+        set_color --background normal
+        printf " "
     end
 
     set_color green
