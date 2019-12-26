@@ -1,8 +1,13 @@
 function fish_prompt
-    set updated (cat /var/pacman-updates|wc -l)
-    if test $updated -gt 0
+    if test -f /var/pacman-updates
+        set updated (cat /var/pacman-updates|wc -l)
+        if test $updated -gt 0
+            set_color red
+            printf "($updated) "
+        end
+    else
         set_color red
-        printf "($updated) "
+        printf "\u00b7 "
     end
     
     if set -q fish_private_mode
