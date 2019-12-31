@@ -16,7 +16,7 @@ set fish_pager_color_description green --bold
 set fish_pager_color_prefix black
 
 # set envuronment variables
-set PAGER most
+set -x SYSTEMD_PAGER 'less -S'
 set -p fish_user_paths $HOME/.local/bin
 
 # restore tmux session or start a new one
