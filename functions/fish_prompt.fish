@@ -17,7 +17,11 @@ function fish_prompt
         printf " "
     end
 
-    set_color green
+    if test $USER = root
+        set_color  --bold red
+    else
+        set_color --bold green
+    end
     printf "$USER "
 
     set_color blue
