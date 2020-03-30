@@ -5,9 +5,6 @@ function fish_prompt
             set_color red
             printf "($updated) "
         end
-    else
-        set_color red
-        printf "\u00b7 "
     end
     
     if set -q fish_private_mode
