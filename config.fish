@@ -20,9 +20,3 @@ set -x PAGER most
 set -x SYSTEMD_PAGER 'less --clear-screen'
 set -x LESS "--raw-control-chars  --clear-screen --IGNORE-CASE --chop-long-lines"
 set -p fish_user_paths $HOME/.local/bin
-
-# restore tmux session or start a new one
-if not set -q TMUX
-    tmux attach || tmux new
-end
-
