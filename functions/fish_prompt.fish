@@ -21,14 +21,14 @@ function fish_prompt
     end
     printf "$USER "
 
-    set_color blue
-    printf (prompt_pwd)
+    #set_color blue
+    #printf (prompt_pwd)" "
 
     set_color normal
     if test $USER = root
-        printf " # "
+        printf "# "
     else
-        printf " > "
+        printf "> "
     end
 end
 
