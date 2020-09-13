@@ -1,10 +1,6 @@
 function fish_title
     if [ $_ = 'fish' ]
-        if not test $USER = root
-            printf '> '
-        else
-            printf '# '
-        end
+        printf (prompt_pwd)
     else
         echo -n $argv[1]
     end
