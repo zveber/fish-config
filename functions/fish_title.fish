@@ -1,8 +1,8 @@
 function fish_title
-    if [ $_ = 'fish' ]
+    if test $_ = 'fish'
         printf (prompt_pwd)
     else
-        echo -n $argv[1]
+        printf  $argv[1]
     end
 end
 
