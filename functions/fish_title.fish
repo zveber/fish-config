@@ -1,8 +1,9 @@
 function fish_title
     if test $_ = 'fish'
-        printf (prompt_pwd)
+        set content (prompt_pwd)
     else
-        printf  $argv[1]
+        set content $argv[1]
     end
+    printf "%s @ %s"  $content (hostname)
 end
 
