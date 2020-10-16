@@ -16,7 +16,8 @@ set fish_pager_color_description green --bold
 set fish_pager_color_prefix black
 
 # set envuronment variables
+set -p fish_user_paths $HOME/.local/bin
+set -x EDITOR vim
+set -x LESS "--raw-control-chars  --clear-screen --IGNORE-CASE --chop-long-lines"
 #set -x PAGER most
 set -x SYSTEMD_PAGER 'less --clear-screen'
-set -x LESS "--raw-control-chars  --clear-screen --IGNORE-CASE --chop-long-lines"
-set -p fish_user_paths $HOME/.local/bin
