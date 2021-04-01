@@ -18,6 +18,7 @@ set fish_pager_color_prefix black
 # set envuronment variables
 set -p fish_user_paths $HOME/.cargo/bin
 set -p fish_user_paths $HOME/.local/bin
+set -p fish_user_paths /var/lib/snapd/snap/bin
 set -x EDITOR vim
 set -x LESS "--raw-control-chars  --clear-screen --IGNORE-CASE --chop-long-lines"
 #set -x PAGER most
